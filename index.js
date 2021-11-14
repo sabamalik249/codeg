@@ -10,6 +10,11 @@ const passport = require('passport');
 const passportLocal=require('./config/passport-local-strategy')
 const MongoStore = require('connect-mongo');
 const sassMiddleware = require('node-sass-middleware');
+const flash= require('connect-flash');
+const customMware=require('./config/middleware');
+
+
+
 
 app.use(sassMiddleware({
     /* Options */
@@ -19,7 +24,7 @@ app.use(sassMiddleware({
     outputStyle: 'compressed',
     prefix: '/css'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
 }));
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 app.use(cookieParser());
 app.use(express.static('./assets'));
@@ -58,6 +63,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(passport.setAuthenticatedUser);
+app.use(flash());
+app.use(customMware.setFlash);
+
 app.use('/', require('./routes'));
 
 app.listen(port,function(err){

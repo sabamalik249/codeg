@@ -1,0 +1,17 @@
+#home-container{
+    display: flex;
+    
+        #feed-posts{
+            border-top: 50%;
+            width: 70%;
+            position: inherit;
+        }
+    
+
+        #user-friends{
+            width: auto;
+            padding: 10px;
+            border-left: 1px solid lightblue;
+            height: 100%;
+        }
+}
