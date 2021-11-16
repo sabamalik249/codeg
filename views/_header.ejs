@@ -26,7 +26,7 @@
 
             <div class="text-end">
                 <% if(locals.user){ %>
-                    <a href="/users/profile" class="btn btn-outline-light me-2" role="button" aria-disabled="true"><%=user.name %></a>
+                    <a href="/users/profile/<%=user.id %> " class="btn btn-outline-light me-2" role="button" aria-disabled="true"><%=user.name %></a>
                     <a href="/users/sign-out" class="btn btn-warning" role="button" aria-disabled="true">Sign OUT</a>
                 <%}else{ %>
                     <a href="/users/sign-in" class="btn btn-outline-light me-2" role="button" aria-disabled="true">Sign In</a>

@@ -1,0 +1,29 @@
+[33mcommit 515c55556287f1613dd38b7acceb1abf97d13d62[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: sabamalik249 <sabamalik249@gmail.com>
+Date:   Sun Nov 14 15:47:39 2021 +0530
+
+    posts+ajax
+
+[33mcommit a982c5d26e0b5d9afff85fd67c7deebf6c9fb417[m
+Author: sabamalik249 <sabamalik249@gmail.com>
+Date:   Thu Nov 11 00:31:56 2021 +0530
+
+    sign in + db relations
+
+[33mcommit 19bf23e4b178a7c8c428abf8b3a5da57d172036c[m
+Author: sabamalik249 <sabamalik249@gmail.com>
+Date:   Tue Nov 9 16:43:19 2021 +0530
+
+    sign-up
+
+[33mcommit 87921b01d0c37e83ad8c6fd099440f5a0bae7adb[m
+Author: sabamalik249 <sabamalik249@gmail.com>
+Date:   Tue Nov 9 12:34:36 2021 +0530
+
+    controllers+routes+views
+
+[33mcommit 4cf9ce63f4f778ea0b6d31b052d69a7aa0b4b53c[m
+Author: sabamalik249 <sabamalik249@gmail.com>
+Date:   Tue Nov 9 10:26:54 2021 +0530
+
+    initial commit
